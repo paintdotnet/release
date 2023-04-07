@@ -2,16 +2,17 @@ _(NOTE: This file is used as a template for the release descriptions at https://
 
 ---
 
-These are the offline installers, portable ZIPs, and deployment MSIs for Paint.NET.
+These are the offline installers, portable ZIPs, and deployment MSIs for Paint.NET. The web installer is also provided, which will download and run the correct installer for any supported CPU and OS.
 
-**Release notes:** https://forums.getpaint.net/topic/.../
+**Release notes:** https://.../...
 
-_**NOTE:** This is a pre-release version. It may have bugs, etc. For the latest stable release, go to https://github.com/paintdotnet/release/releases and look for the newest release that is not tagged as "alpha" or "beta"._
+System Requirements:
+- Windows 11, or Windows 10 v1809+, or Windows Server 2019/2022
+- 64-bit CPU (Intel/AMD x64 or ARM64)
+- _Optional:_ A pen or drawing tablet that supports Windows Ink
+- _Recommended:_ A CPU that supports AVX2
+- _Recommended:_ A GPU or APU that supports Direct3D 11, such as an NVIDIA GeForce, AMD Radeon, Intel Arc, Intel Iris (Plus or Xe), or Intel HD/UHD
 
-The offline installer may still need to download some prerequisites if you're on a Windows 7 or 8.1 machine that is not up-to-date. You do not need to have .NET installed, as it is included as part of the app ("self-contained deployment").
+_(Friendly hint: If you don't know what an MSI is, then it's almost certainly not the download you want. Just grab the "anycpu" installer if you're not sure which one to use.)_
 
-If you are installing/deploying the MSI on Windows 7 or Windows 8.1, you will need to make sure the prerequisites for .NET are installed, which you can find information about at [https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60). You will also need to have the Platform Update installed on Windows 7 SP1. You do not need to install .NET itself, as it is included as part of the app ("self-contained deployment"). More documentation for the MSI, including configuration properties, is over at [https://www.getpaint.net/doc/latest/UnattendedInstallation.html](https://www.getpaint.net/doc/latest/UnattendedInstallation.html)
-
-(Friendly hint: If you don't know what an MSI is, then it's almost certainly not the download you want.)
-
-The "source code" ZIP does not contain any actual files or source code, it is just included automatically as part of GitHub's "releases" functionality.
+_The "source code" ZIP does not contain any actual files or source code, it is just included automatically as part of GitHub's "releases" functionality._
