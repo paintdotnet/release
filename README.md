@@ -4,7 +4,7 @@ _(NOTE: This file is used as a template for the release descriptions at https://
 
 These are the offline installers, portable ZIPs, and deployment MSIs for Paint.NET. The web installer is also provided, which will download and run the correct installer for any supported CPU and OS.
 
-**Release notes:** https://.../...
+**Release notes:** https://.../...  
 
 System Requirements:
 - Windows 11, or Windows 10 v1809+, or Windows Server 2019/2022
